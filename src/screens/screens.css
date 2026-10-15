@@ -1,0 +1,58 @@
+.account-menu {
+  width: 100%;
+  display: flex; align-items: center; gap: 15px;
+  text-align: left;
+}
+
+.credit-summary {
+  height: 560px;
+  padding: 20px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.credit-bar { width: 8px; display: flex; flex-direction: column; gap: 1px; }
+.credit-menu-line { height: 0.5px; background: var(--line); }
+.credit-menu-sep { width: 0.5px; background: var(--line); }
+.credit-menu {
+  width: 104px; height: 104px; flex: none;
+  padding: 14px;
+  display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;
+  text-align: left;
+}
+
+.fab {
+  position: sticky;
+  bottom: 16px;
+  align-self: flex-end;
+  margin: 16px;
+  flex: none;
+  display: flex; align-items: center; justify-content: center;
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+.sheet-pad { padding: 0 25px; }
+
+.pix-menu { background: var(--label-button); height: 72px; padding-top: 0; padding-bottom: 0; }
+.deposit-menu { min-height: 80px; margin: 15px 0; padding-top: 0; padding-bottom: 0; }
+.deposit-menu .menu-row__text { gap: 10px; }
+
+.block-btn {
+  flex: 1;
+  height: 62px;
+  font-size: 16px; font-weight: 700;
+  text-transform: uppercase;
+}
+.block-btn:hover { background: rgba(0, 0, 0, 0.03); }
+
+.credit-add {
+  display: block;
+  margin: 0 20px 10px;
+  width: calc(100% - 40px);
+  padding: 12px;
+  border: 1.5px dashed var(--primary);
+  border-radius: 10px;
+  color: var(--primary);
+  font-size: 13px; font-weight: 700;
+}
+.credit-add:hover { background: rgba(131, 10, 209, 0.05); }
